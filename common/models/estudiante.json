@@ -1,0 +1,27 @@
+{
+  "name": "estudiante",
+  "plural": "estudiantes",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "estNoControl": {
+      "type": "string",
+      "required": true
+    },
+    "estNombre": {
+      "type": "string",
+      "required": true
+    },
+    "estCarrera": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

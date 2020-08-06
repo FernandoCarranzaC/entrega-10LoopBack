@@ -1,0 +1,23 @@
+{
+  "name": "detgrupo",
+  "plural": "detgrupos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "grpClave": {
+      "type": "number",
+      "required": true
+    },
+    "estNoControl": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,27 @@
+{
+  "name": "instructor",
+  "plural": "instructores",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "insClave": {
+      "type": "number",
+      "required": true
+    },
+    "insNombre": {
+      "type": "string",
+      "required": true
+    },
+    "insDepto": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

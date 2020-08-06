@@ -1,0 +1,35 @@
+{
+  "name": "actividad",
+  "plural": "actividades",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "actClave": {
+      "type": "number",
+      "required": true
+    },
+    "actNombre": {
+      "type": "string",
+      "required": true
+    },
+    "actCategoria": {
+      "type": "string",
+      "required": true
+    },
+    "actObjetivo": {
+      "type": "string",
+      "required": true
+    },
+    "actContenido": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,47 @@
+{
+  "name": "grupo",
+  "plural": "grupos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "grpClave": {
+      "type": "number",
+      "required": true
+    },
+    "grpCarrera": {
+      "type": "string",
+      "required": true
+    },
+    "actClave": {
+      "type": "number",
+      "required": true
+    },
+    "insClave": {
+      "type": "number",
+      "required": true
+    },
+    "grpAula": {
+      "type": "string",
+      "required": true
+    },
+    "grpLimite": {
+      "type": "number",
+      "required": true
+    },
+    "grpDateIni": {
+      "type": "date",
+      "required": true
+    },
+    "grpDateFin": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

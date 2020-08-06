@@ -1,0 +1,4 @@
+applications:
+- name: lop-actividades
+  random-route: true
+  memory: 256M
